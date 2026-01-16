@@ -1061,7 +1061,7 @@ class DFT(LinOp):
         return udft.idftn(point, ndim=self.dim)
 
     def fwadj(self, point: array) -> array:
-        return array
+        return array #TODO Currently returns the type "array" 
 
 
 class RealDFT(LinOp):
@@ -1459,7 +1459,7 @@ class DWT(LinOp):
         )
 
     def fwadj(self, point: array) -> array:
-        return array
+        return array #TODO Currently returns the type "array" 
 
 
 class Analysis2(LinOp):

@@ -25,10 +25,10 @@ packages = [{include = "aljabr", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4"
-numpy = "^1.20.2"
-udft = "^3.2.0"
-PyWavelets = "^1.1.1"
-scipy = "^1.7.1"
+numpy = ">=1.20.2,<3.0"
+udft = {git = "https://github.com/forieux/udft.git"}
+PyWavelets = ">=1.8"
+scipy = ">=1.13,<2.0"
 pytest = "^8.2.2"
 
 [tool.poetry.dev-dependencies]
