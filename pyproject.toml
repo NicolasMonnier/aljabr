@@ -26,7 +26,7 @@ packages = [{include = "aljabr", from = "src"}]
 [tool.poetry.dependencies]
 python = ">=3.8,<4"
 numpy = ">=1.20.2,<3.0"
-udft = {git = "https://github.com/forieux/udft.git"}
+udft = {from git+https://github.com/NicolasMonnier/udft.git@update-numpy-version}
 PyWavelets = ">=1.8"
 scipy = ">=1.13,<2.0"
 pytest = "^8.2.2"
